@@ -1,8 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    padding:20px;
+}
+.topnav a {
+    color: #b1a7a7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lexend Deca';
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 body{
     background-color: black;
-    display:flex;
-    place-items: center;
     min-height: 100vh;
+    place-items: center;
+   }
+main{
+    display:flex;
+      
 }
 
 .diva{
