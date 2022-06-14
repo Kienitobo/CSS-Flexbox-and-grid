@@ -1,0 +1,120 @@
+@media all and (min-width: 375px)  {  p  { font-size:8px;  } }
+@media all and (min-width: 1440px) {  p  { font-size:15px;  } }
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 12.5vh;
+  margin-bottom: 12.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+@font-face {
+  font-family:'Lexend Deca';
+  src: url(LexendDeca-VariableFont_wght.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'Big Shoulders Display';
+  src: url(BigShouldersDisplay-VariableFont_wght.ttf);
+  font-weight:700;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca'!important;
+  padding: 10px;
+  margin: auto;
+  
+}
+div{
+  text-overflow:ellipsis;
+  overflow: hidden;
+}
+h3 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display';
+  padding: 10px;
+  font-size: 20px;
+}
+svg {
+  padding: 10px;
+}
+.buttonsec {
+  padding: 30px;
+  position: relative;
+  top:20px;
+
+}
+.sedan-button {
+  background: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-radius: 20px;
+  border: 0px;
+  padding: 12px;
+  font-family: 'Lexend Deca';
+  font-size: 10px;
+  }
+
+.sedan-button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.suv-button {
+  background: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border-radius: 20px;
+  border: 0px;
+  padding: 12px;
+  font-family: 'Lexend Deca';
+  font-size: 10px;
+}
+
+.suv-button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.luxury-button {
+  background: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border-radius: 20px;
+  display: inline-block;
+  border: 0px;
+  padding: 12px;
+  font-family: 'Lexend Deca';
+  font-size: 10px;
+}
+
+.luxury-button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+  border-radius: 5px 0px 0px 5px;
+  height: 100%;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+  height: 100%;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+  border-radius: 0px 5px 5px 0px;
+  height: 100%;
+}
