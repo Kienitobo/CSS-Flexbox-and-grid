@@ -34,7 +34,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 60vh;
 }
 @font-face {
   font-family:'Lexend Deca';
@@ -68,7 +68,7 @@ svg {
   padding: 10px;
 }
 .buttonsec {
-  padding: 30px;
+  padding: 10px 30px 10px 30px;
   position: relative;
   top:20px;
 
