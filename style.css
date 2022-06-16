@@ -1,5 +1,5 @@
-@media all and (min-width: 375px)  {  p  { font-size:8px;  } }
-@media all and (min-width: 1440px) {  p  { font-size:15px;  } }
+@media screen and (max-width: 600px)  {  p  { font-size:8px;  } }
+@media screen and (min-width: 600px) {  p  { font-size:15px;  } }
 body {
   background-color: hsl(0, 0%, 95%);
 }
